@@ -1,3 +1,24 @@
 body{
     background-color: burlywood;
 }
+
+
+.hide{
+    display: none !important;
+}
+
+.underweight{
+    color: blue !important;
+}
+
+.normal{
+    color: green;
+}
+
+.overweight{
+    color: orange;
+}
+
+.obese{
+    color: red;
+}
