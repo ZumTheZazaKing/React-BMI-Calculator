@@ -1,6 +1,108 @@
+$titleFont:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$bodyFont:Arial, Helvetica, sans-serif;
+
 body{
+    margin: 0;
+    padding: 0;
     background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .container{
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+
+        #inputContainer{
+
+            h2{
+                font-family: $titleFont;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            label{
+                font-family: $bodyFont;
+            }
+
+            input[type=number]{
+                padding: 10px;
+                font-size: 16px;
+                background-color:rgb(238, 237, 237) ;
+                border: none;
+                outline: none;
+            }
+
+            form{
+                text-align: right;
+            }
+
+            input[type=submit]{
+                padding: 5px;
+                border: none;
+                background-color: rgba(100, 149, 237, 1);
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover{
+                background-color: rgb(53, 112, 223);
+            }
+
+        }
+
+        #outputContainer{
+            text-align: center;
+
+            h3{
+                margin: 0;
+                padding: 0;
+                font-family: $titleFont;
+            }
+
+            h2{
+                font-family: $bodyFont;
+            }
+
+            p{
+                font-family: $bodyFont;
+            }
+
+            button{
+                padding: 5px;
+                background-color: rgb(252, 107, 184);
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            button:hover{
+                background-color: rgb(253, 60, 163);
+            }
+
+        }
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hide{

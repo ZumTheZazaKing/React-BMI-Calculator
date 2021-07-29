@@ -1,5 +1,73 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+body .container #inputContainer h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body .container #inputContainer label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .container #inputContainer input[type=number] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #eeeded;
+  border: none;
+  outline: none;
+}
+body .container #inputContainer form {
+  text-align: right;
+}
+body .container #inputContainer input[type=submit] {
+  padding: 5px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .container #inputContainer input[type=submit]:hover {
+  background-color: #3570df;
+}
+body .container #outputContainer {
+  text-align: center;
+}
+body .container #outputContainer h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .container #outputContainer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .container #outputContainer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .container #outputContainer button {
+  padding: 5px;
+  background-color: #fc6bb8;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .container #outputContainer button:hover {
+  background-color: #fd3ca3;
 }
 
 .hide {

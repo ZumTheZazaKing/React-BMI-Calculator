@@ -13,12 +13,12 @@ function Input(props){
     <form onSubmit={props.handleSubmit}>
 
       <label>Weight(kg): </label>
-      <input type="number" onChange={props.handleChangeWeight} value={props.dataWeight} />
+      <input type="number" onChange={props.handleChangeWeight} value={props.dataWeight} required/>
 
       <br/><br/>
 
       <label>Height(m): </label>
-      <input type="number" onChange={props.handleChangeHeight} value={props.dataHeight} />
+      <input type="number" onChange={props.handleChangeHeight} value={props.dataHeight} required/>
 
       <br/><br/>
 
@@ -111,7 +111,7 @@ function App(){
     outputContainerClass.current.className = "hide";
   }
 
-  return <div>
+  return <div className="container">
 
     <Input 
     dataHeight={heightValue} 
